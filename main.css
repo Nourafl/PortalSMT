@@ -1,0 +1,217 @@
+* {
+    box-sizing: border-box;
+    font-family: 'Tajawal', sans-serif;
+}
+.logo > img{ width: 90px;height: auto;float: right;};
+body {margin: 0;Background-color: #8f55c50a;}
+ html {scroll-behavior: smooth;} 
+img { width: 80%; margin-left: 10%
+/*     border-radius: 50%; */
+} 
+.fullname {text-align: center;width: 104px;
+height: 32px;
+color: #4a90e2;
+font-family: "FF Shamel Family - Round Medium";
+font-size: 16px;
+font-weight: 500;}
+.category{text-align: center}
+@media (max-width: 768px){
+    .sm-col-9{
+       width:10%;
+    }
+img {
+    width: 100%;
+}
+table{
+    float: left;
+    width: 50%;
+} 
+} 
+.card{
+      box-shadow:0 0 15px #adadad;
+      border:solid 0 grey;
+      margin:5px;
+  
+}
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+th, td {
+  text-align: center;
+  padding: 8px;
+}
+.card:hover {
+ box-shadow: 2px 2px 10px #8f55c563;
+}
+Button {
+  color: #fff;
+  Background-color: #5a286f;
+}
+.fab {
+    content: "\f2ab";
+    color: #5a286f;
+}
+.fab:hover {
+    content: "\f2ab";
+    color: #3d8cc2;
+}
+
+h3{color: #5a286f;}
+.banar > h3 {float: left;}
+.italic{display:inline-block; Background-color:#3d8cc2; padding:2px 4px;transform: skewX(-20deg);}
+/* Search input on the navbar */
+.cardS {background: #fff; position: relative; border: .5 solid black;}
+.search-card { width: 23%; height: 45px; padding: 5px 10px; padding-left: 40px;}
+.search-card input[type=search] { width: 100%; padding: 0; height: inherit; font-size: 21px; border: none; outline: none;}
+.search-card a {position: absolute; top: 50%; left: 10px;transform: translateY(-50%); font-size: 25px;color: #dee2e6a8;}
+
+.search-card a:hover { color: #5a286f;}
+::placeholder {color:grey; opacity:.4 ;font-size: 12px}
+/* End of the Search */
+.updatemessage{ margin: 0; box-sizing: content-box; width: 84%; text-align: right;height: 51px;border-radius: 2px;border: 1px solid #97e6b8;background-color: #cbf3dc;}
+.grey{color: grey;}
+.details {color:#000;font-size:16px;}
+/* dropdown list export profile */
+.menu, .menu ul{background-color: #8f55c50a;padding: 2px;text-align:right;border: 1px solid rgba(66, 16, 64, 0.13);}
+/* .menu li{float: right;position: relative;} */
+.menu ul{display: none;}
+/* .menu ul li{float: none;margin: 0;padding: 0;line-height: 15px;} */
+.menu a:link, .menu a:visited{text-align: left;text-decoration: none;}
+.menu li:hover ul{display: block;}
+.actions{margin-right: 7%;margin-top:10%;padding-right: 5%;border-right: 1px solid rgba(66, 16, 64, 0.13);}
+.actions > li{background-color: #8f55c50a;padding: 2px;text-align:  right;border: 1px solid rgba(66, 16, 64, 0.13);}
+ a{color: #000;text-decoration: none;}
+li{  list-style: none;}
+a:hover {text-decoration: none;}
+.yellow-msg{ margin-right: 5%; width: 714px; height: 48px;border-radius: 4px;border: 1px solid rgba(245, 166, 35, 0.29);background-color: rgba(248, 231, 28, 0.17);}
+.card-body{ padding: 1rem;}
+.social-price > u {text-decoration: none;border-bottom: 5px solid black;width: 50%;}
+
+form{ display: none;}
+
+.card-container{ /* Style for "Rectangle" */
+width: 100%;
+height: 281px;
+border-radius: 8px;
+border: 1px solid #dfdfdf;
+background-color: #ffffff;}
+form {padding: 15px;border: 1px solid #666; background: #fff;display: none;}
+#formButton {margin-right: auto;margin-left: auto;  z-index: 10;
+    display: -webkit-box; display: none}
+.smallCards {
+width: 92px;
+height: 120px;
+box-shadow: 1px 3px 3px rgba(0, 0, 0, 0.1);
+border-radius: 10px;
+border: 1px solid #e8e8e8;
+background-color: #ffffff;
+
+}
+.social-price {
+margin-left:0;
+width: 72px;
+height: 21px;
+color: #000000;
+font-family: "Lucida Grande";
+font-size: 17px;
+font-weight: 700;
+}
+.smallCards {
+  padding:0;
+  margin: 10px;
+  
+  
+}
+.card {
+  Justify-content: center;
+}
+.smallCards > hr {
+width: 37px;
+height: 4px;
+border-radius: 2px;
+
+float: left;
+}
+.sold-pric {
+width: 59px;
+height: 18px;
+color: #a4a4a4;
+font-family: "Lucida Grande";
+font-size: 14px;
+font-weight: 700;
+}
+.smallCards > .brokerage {
+  width: 17px;
+height: 11px;
+color: #9013fe;
+font-family: "Lucida Grande";
+font-size: 8px;
+font-weight: 700;
+float: left;
+}
+.service {
+margin: auto 0;
+text-align: center;
+width: 36px;
+height: 20px;
+color: #777777;
+font-family: "FF Shamel Family - Round Medium";
+font-size: 10px;
+font-weight: 500;
+padding-bottom: 0;
+}
+hr {
+    margin-top: 0;
+    margin-bottom: 0;
+    border: 0;
+    border-top: 1px solid rgba(0,0,0,.1);
+}
+
+.row-no-padding {
+  margin-left: 0 !important;
+  margin-right: 0 !important;
+}
+
+.last-trnsction {
+width: 217px;
+height: 24px;
+color: #7b7b7b;
+font-family: "FF Shamel Family - Round Book";
+font-size: 12px;
+font-weight: 300;
+/* Text style for "العملية ال" */
+font-family: "FF Shamel Family - Round Medium";
+font-weight: 500;}
+ p {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+.twitter{
+    background-color: #50e3c2;
+}
+.instagram {
+    background-color: #bd10e0;
+}
+.snapChat{
+    background-color: #fee858;;
+}
+.selectedCard{
+  border: 5px solid Purple;
+  display:block;
+
+}
+.sticky-footer {
+  font-size: .75rem;
+  color: #5E5E5E;
+  padding: 15px;
+-webkit-box-shadow: -1px -21px 58px -19px rgba(0,0,0,1);
+-moz-box-shadow: -1px -21px 58px -19px rgba(0,0,0,1);
+box-shadow: -1px -21px 58px -19px rgba(0,0,0,1);
+}
+
+.footer-details {
+  float: right;
+}
+
